@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Ligar PC Remoto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- MQTT.js -->
+  <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>PC REMOTO</h1>
+
+    <button id="btnPower" onclick="ligarPC()">
+      🔌 LIGAR PC
+    </button>
+
+    <p id="status">Conectando ao servidor...</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
